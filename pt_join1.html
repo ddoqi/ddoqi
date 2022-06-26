@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<!-- RWD -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- MS -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8,IE=EmulateIE9"/>
+<title>accordion collapse</title>
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- popper -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- latest javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+<!-- 회원가입창  -->
+
+<div class="container" id="join1">
+   <h2>join</h2>
+   <!-- toggle하는 데이터 형식은 modal이다.  -->
+   <!--  -->
+   
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+      회원가입하기
+   
+   </button>
+
+
+   <div class="modal" id="myModal"> <!-- modal의 최상위 콘테이너, id가 data-target과 맵핑된다. -->
+      <div class="modal-dialog modal-xl"> <!-- 2단계 콘테이너 -->
+         <div class="modal-content"> <!-- 3단계 콘테이너고, 이 곳에 모달창 내용을 만든다. -->
+            <div class="modal-header"> <!-- 모달의 제목 부분 -->
+            <h4 class="modal-title text-center">회원가입 창</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <!-- 나가기 버튼 class="close" data-dismiss="modal"를 추가, 버튼이름은 엔터티 &times; -->
+            </div> <!-- 모달 header부분 div끝 -->
+      
+      <div class="modal-body p-5 pt-0"> <!-- 모달의 주내용 부분 -->
+      
+       <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="Name" class="form-label">이름</label>
+              <input type="text" class="form-control" id="Name" placeholder="ex)홍길동" value="" required>
+            </div>
+          </div>
+          
+                 <label for="id" class="form-label">아이디 생성</label><br/>
+           <div class="input-group g-3 w-50 "> <!-- w-50 : 50%만큼 차지 , p는 padding을 의미-->
+              <input type="text" class="form-control" placeholder="Recipient's username">
+              <span class="input-group-text" id="basic-addon2">@ szlect.com</span>
+         </div>
+           
+          
+           <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="pw" class="form-label">비밀번호</label>
+              <input type="password" class="form-control" id="pw" placeholder="바밀번호 생성(특수문자 사용)" value="" required>
+             </div>
+           </div>
+          
+          
+           <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">e-mail</label>
+              <input type="text" class="form-control" id="email" placeholder="ex)123@naver.com" value="" required>
+          </div>
+          </div>
+          
+           <br/>
+           <div class="row-g-3"> 
+                <div class="form-group">
+                
+                    <label for="city" class="form-label">주소지</label><br/>
+                   <select class="form-select" id="country">
+                      <option selected>시/군/구</option>
+                      <option value="1">서울특별시</option>
+                      <option value="2">경기도</option>
+                      <option value="3">강원도</option>
+                      <option value="2">전라도</option>
+                      <option value="3">충청도</option>
+                    </select>
+                    
+                    
+                    <select class="form-select" id="floatingSelectGrid">
+                      <option selected>읍/면/동</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    
+                    <br/><br/>
+                    <div>
+                     <label for="zip" class="form-label"> 상세 주소</label>
+                      <input type="text" class="form-control" id="addressdt" placeholder="상세 주소를 입력" required>
+                   </div>
+                   
+                    <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                   
+                   
+             </div>               
+             </div>
+          
+          
+          <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="school">
+           <label class="form-check-label" for="school">
+             4년제 대학교
+             </label>
+        </div>
+        
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="school">
+           <label class="form-check-label" for="school">
+             2년제 대학교
+             </label>
+        </div>
+        
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="school">
+           <label class="form-check-label" for="school">
+             고등학교 졸업
+             </label>
+        </div>
+        
+        <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="school">
+           <label class="form-check-label" for="school">
+             기타
+             </label>
+             <input type="text" value="기타 학력사항 입력">
+        </div>
+          
+          
+          
+          
+
+           
+          
+ </div> 
+
+      
+      
+      
+      
+      
+      <div class="modal-footer"> <!-- 모달의ㅡ 하위 부분, 나가기  -->
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">취소</button>
+           <button type="button" class="btn btn-secondary">회원가입 완료</button>
+      <!-- 나가기 버튼으로 close 단어를 버튼이름으로 사용 -->
+      </div>
+            
+            
+         </div>
+      </div>
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
