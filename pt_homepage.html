@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<!-- RWD -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- MS -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8,IE=EmulateIE9"/>
+<title>accordion collapse</title>
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- popper -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- latest javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--fontawesome icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<!--google icon -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style>
+.carousel-inner img {
+      width : 100%;
+      height: 100%;
+}
+
+
+.fakeimg {
+	height : 200px;
+	background : #aaaaaa;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container mt-3">
+<!-- 위에서부터 간격을 줄이려면 mt-1로 하면 되겠지  -->
+	<div class="jumbotron text-center mb-0"><!-- margin bottom이 0 -->
+		<!--my first bootstrap 4page  -->
+		<h1>my first bootstrap 4page</h1>
+		<p>부트스트랩 이스 몰 파퓰러 에이취템엘 엔 쒸에스에스</p>
+	</div>
+
+
+<!-- navbar만들기  -->
+
+<!--full이 되서 나옴, full이 싫으면 container붙이기  -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark container mx-0">
+
+	<!-- brand도 클릭이나 링크가 되긴 된다. -->
+	<a class="navbar-brand" href="#">로고</a>
+	
+	<!--button은 데이터토글이 collapse다 -> 콜렙스형 버튼이다. 토글되는 데이터형은 collapse이다.  -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span> <!-- 상병 계급장 -->
+	</button>
+	
+	<!-- 이 클래스는 collapse되는 collapse로, 메뉴바 만들때 필수로 쓸 코드 -->
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item" > <!-- li는 항목 -->
+				<a class="nav-link" href="#">이미지넣기</a>
+				<!-- a안에 이미지로 할 수 있다. -->
+			</li>
+			
+			<li class="nav-item" > 
+				<a class="nav-link" href="#">
+					<i class="fas fa-home" style="font-size:30px; color:white;"></i>
+				</a>
+			</li>
+			
+			<li class="nav-item" > 
+				<a class="nav-link" href="#">제품</a>
+			</li>
+			
+			<li class="nav-item" >
+				<a class="nav-link" href="#">구매</a>
+			</li>
+			
+			<li class="nav-item" >
+				<a class="nav-link" href="#">게시판</a>
+			</li>
+		    </ul>
+	  <ul class="navbar-nav ml-auto">
+			 	<li class="nav-item">
+			 	<!-- a가 아니라 모달 버튼으로 만들어도 좋은 것!! -->
+				<a class="nav-link" href="#">로그인</a>
+				</li>
+	   </ul>
+	   
+	</div>
+</nav>
+
+<div class="container mt-0 border border-dark  bg-dark" >
+<div id="demo" class="carousel slide p-0" data-ride="carousel">
+      <ul class="carousel-indicators">
+         <li data-target="#demo" data-slide-to="0" class="active"> </li>
+         <li data-target="#demo" data-slide-to="1">
+         <li data-target="#demo" data-slide-to="2">
+      </ul>
+      
+      <!-- inner은 슬라이드 사진 포함 콘테이너  -->
+      <!-- item은 각각의 슬라이드 사진을 나타내는 콘테이너로 이미지 사진을 포함  -->
+      
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="http://www.w3schools.com/bootstrap4/la.jpg" alt="los angeles">
+            <div class="carousel-caption">
+               <h3>런ㄴ던</h3>
+               <p>we had such 머시기!</p>
+            </div>
+         </div>
+         
+         <div class="carousel-item">
+            <img src="http://www.w3schools.com/bootstrap4/chicago.jpg" alt="시카고">
+            <div class="carousel-caption">
+               <h3>chicago</h3>
+               <p>we had such 머시기!</p>
+            </div>
+         </div>
+         
+         <div class="carousel-item">
+            <img src="http://www.w3schools.com/bootstrap4/ny.jpg" alt="뉴욕" >
+            <div class="carousel-caption">
+               <h3>뉴요쿠!!</h3>
+               <p>we had such 머시기!</p>
+            </div>
+         </div>
+      </div>
+      
+      <!-- 화살표 만드는거, 앞, 뒤 사진 왓다갓다하는.. -->
+      
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+         <span class="carousel-control-prev-icon"></span>
+      </a>
+      
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+         <span class="carousel-control-next-icon"></span>
+      </a>
+   </div>
+</div>
+
+
+<div class="container" style="margin-top:30px">
+	<div class="row">
+		<div class="col-md-4">
+			<h2>about me</h2>
+			<h5>포토 어브 미</h5>
+			<div class="fakeimg">
+				<img scr="media/strawberry.png" style="width:90%; height:200px">
+			</div>
+			<p>ㅆㅁ 텍스트 미 ㅁㅇㄴㅇ라ㅓ미ㅏㄴㅇ러ㅣㅁㄴ어사ㅣㅁㄷ저시ㅓㅅ </p>
+			<h3>some links</h3>
+			<p>수직메뉴 만들기</p>
+			<!-- 수직메뉴 할때는 navbar형식이 아니라   -->
+			<ul class="nav nav-pills flex-column">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">수직메뉴1</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link active" href="#">수직메뉴2</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link active" href="#">수직메뉴3</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link active" href="#">수직메뉴4</a>
+				</li>
+			</ul>
+			
+		</div>	
+		
+		<div class="col-md-8">
+			<h2>TITLE HEADING</h2>
+			<h5>title description, dec 7,2017</h5>		
+			<div class="fakeimg">
+				<img src="media/abc" class="w-100 h-100"/>
+			</div>
+			<p>some text...</p>
+			<p>some text..........text..........text.........★</p>
+			<br/>
+			
+			<h2>TITLE HEADING</h2>
+			<h5>title description, dec 7,2017</h5>		
+			<div class="fakeimg">
+				<img src="media/abc2" class="w-100 h-100"/>
+			</div>
+			<p>some text...</p>
+			<p>some text..........text..........text.........★</p>
+			<br/>
+			
+			
+		</div>
+	</div>
+</div>
+
+<!-- 연락처, 전화번호 이런거 만들어주면 되져  -->
+<footer class="container mt-5">
+	<div class="jumbotro text-center" style="margin-bottom:0">
+	<h3>footer</h3>
+	</div>
+</footer>
+
+
+
+
+</body>
+</html>
