@@ -1,0 +1,10 @@
+<!-- div오른쪽 정렬 : style="float:right;" -->
+<!-- input type text로 검색창 만들기 -->
+
+<div class="search-container" style="float:right;">
+  <form action="#">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  </div> 
+  	
