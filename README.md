@@ -1,6 +1,5 @@
 <div align=center>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FFAF0A&height=200&section=header&text=다경'sGitHub&fontColor=FDF5E6&fontSize=70"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FFAF0A&height=230&section=header&text=다경'&nbsp;GitHub&fontColor=FFFFFF&fontSize=70"/>
 </div>
 <div align=center>
 	<h3> 📚 Tech Stack </h3>
