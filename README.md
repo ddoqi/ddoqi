@@ -1,12 +1,19 @@
 <div align=center>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFAF0A&height=230&section=header&text=다경'&nbsp;GitHub&fontColor=FFFFFF&fontSize=70"/>
+	
+## 🌳 <b>홍다경 포트폴리오</b>🌳 <br/>
+### About Me ! <br/> [홍다경 포트폴리오](https://hdk-portfolio.vercel.app/) 구경가기 <br/>
+## 👩🏻‍💻 <b>홍다경 블로그</b> 👩🏻‍💻<br/>
+### Doing Now, <br/>[홍다경 블로그](https://warn-code.tistory.com/) 방문하기<br/>
 </div>
+<br/>
+<br/>
 <div align=center>
-	<h3> 📚 Tech Stack </h3>
+	<h2>📚 Tech Stack</h2>
 </div>
 
 <div align="center">
-<h3>✨ Language & Platform ✨</h3>
+	<h3>✨ Language & Platform ✨</h3>
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" /> 
 	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
@@ -21,10 +28,10 @@
                <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=MongoDB&logoColor=white" />
                   <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=Vercel&logoColor=white" />
                   <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat&logo=Amazon AWS&logoColor=white" />
-                  <h3>✨ Statement Management ✨</h3>
+                 <h3>✨ Statement Management ✨</h3>
         <img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=Redux&logoColor=white" />
             <img src="https://img.shields.io/badge/React Query-FF4154?style=flat&logo=React Query&logoColor=white" />
-            <h3>🛠 Tools 🛠</h3>
+          <h3>🛠 Tools 🛠</h3>
             <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" />
               <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat&logo=Apache Tomcat&logoColor=white" />
                    <img src="https://img.shields.io/badge/Eclipse IDE-2C2255?style=flat&logo=Eclipse IDE&logoColor=white" />
