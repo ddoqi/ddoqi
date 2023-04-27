@@ -31,6 +31,7 @@
                  <h3>✨ Statement Management ✨</h3>
         <img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=Redux&logoColor=white" />
             <img src="https://img.shields.io/badge/React Query-FF4154?style=flat&logo=React Query&logoColor=white" />
+	  <img src="https://img.shields.io/badge/Recoil-000000?style=flat&logo=React Query&logoColor=white" />
           <h3>🛠 Tools 🛠</h3>
             <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" />
               <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat&logo=Apache Tomcat&logoColor=white" />
