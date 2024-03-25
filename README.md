@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFAF0A&height=230&section=header&text=다경'&nbsp;GitHub&fontColor=FFFFFF&fontSize=70"/>
 	
 ## 🌳 <b>홍다경 포트폴리오</b>🌳 <br/>
-### About Me ! <br/> [홍다경 포트폴리오](https://hongdakyung.vercel.app/) 구경가기 <br/>
+### About Me ! <br/> [홍다경 포트폴리오](https://hongdakyung-portfolio.vercel.app/) 구경가기 <br/>
 ## 👩🏻‍💻 <b>홍다경 블로그</b> 👩🏻‍💻<br/>
 ### Doing Now, <br/>[홍다경 블로그](https://warn-code.tistory.com/) 방문하기<br/>
 </div>
